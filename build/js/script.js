@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{$(".slider").slick({infinite:!0,dots:!0,slidesToShow:1,slidesToScroll:1,adaptiveHeigth:!0})});
