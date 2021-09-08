@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
     <div class="contacts__container">
-        <div class="content__img"><img src="img/Лого2.png" alt=""></div>
-        <div class="social-networks">
-            <div class="icon__social-networks"> <a href="" class="icon-instagram"></a></div>
-            <div class="icon__social-networks"><a href="" class="icon-facebook"></a></div>
-            <div class="icon__social-networks"><a href="" class="icon-telegram"></a></div>
+        <div class="background"></div>
+        <div class="contacts">
+            <div class="content__img">
+                <img src="img/Лого2.png" class="content__img-logo" alt="" />
+            </div>
+            <div class="social-networks">
+                <div class="icon__social-networks">
+                    <a href="" class="icon-facebook"></a>
+                    <a href="" class="icon-instagram-square"></a>
+                    <a href="" class="icon-telegram"></a>
+                </div>
+            </div>
+            <div class="form__container">
+                <div class="form__items">
+                    <form action="" class="input__form">
+                        <input type="text" name="username" class="input-name" value="" placeholder="Enter your name...">
+                        <input type="number" name="phone" class="input-phone" placeholder="Enter your phone number...">
+                        <textarea name="text" id="" cols="30" rows="10" placeholder="Your message..." class="textarea-comments"></textarea>
+                        <button type="submit" class="input__button">Send</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="form__container">
-            <form action="">
-                <input type="text" class="name">
-                <input type="email" class="email">
-                <textarea name="" id="coment" cols="30" rows="10"></textarea>
-                <button type="submit" class="submit">submit</button>
-            </form>  
-        </div>
-        <div class="img__contacts">
-            <img src="img/easy_crem.png" alt="">
-            <img src="img/easy_mushroom.png" alt="">
-        </div>
+        <div class="background-two"></div>
     </div>
+    <div class="footer__contacts-content">
+        <p class=" ">Our organization respects the rules of consumers.</p>
+        <a href="index.html" class="footer__link">Home</a>
+        <p>
+            Project developed and supported by
+            <a href="https://github.com/gigaMonos ">GigaMonos.</a>
+        </p>
+        <a href=" " class="footer__link">About Us</a>
+    </div>
+
     <script src="js/script.js"></script>
 </body>
+
 </html>

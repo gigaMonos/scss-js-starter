@@ -1,0 +1,13 @@
+.footer {
+    width: 86%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(100px, 180px) auto;
+    .footer__content {
+        display: grid;
+        grid-column: 2/2;
+        grid-template-columns: minmax(100px, auto) 80px;
+        padding: 10px 0 10px 0;
+        background: rgb(221, 96, 169);
+    }
+}
